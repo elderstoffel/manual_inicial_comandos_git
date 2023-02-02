@@ -18,4 +18,11 @@ git add .
 git commit -m "mensagem do commit"
 
 # enviar os arquivos ao repositorio do github
-git push origin mainclo
+git push origin main
+
+#recuperar um arquivo deletado por engano
+#verificar o status e pegar o nome do arquivo
+git status 
+git restore nomedoarquivo
+
+
